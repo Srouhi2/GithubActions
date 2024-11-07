@@ -10,7 +10,7 @@ Because Travis CI is no longer free, we are going to look at how Github Actions 
 
 Continuous integration can be used to perfom checks on written code, making sure that unit tests always pass or that formatting is followed, and that when changes are made, they don't break other areas of the code.
 
-Fork and clone the repo to your computer to get started.
+Fork and clone the repo to your computer to get started. 
 
 ## Run the Console App
 Just as a sanity check, make sure that everything is working before you begin. Try out the console app, see if you can break it and where the weaknesses in the code are. Try manually running the tests.
