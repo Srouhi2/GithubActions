@@ -68,7 +68,7 @@
     <ProjectReference Include="..\Console\Console.csproj">
       <Project>{c5964eef-da27-4c98-b4d0-7f27767fe870}</Project>
       <Name>Console</Name>
-    </ProjectReference>
+    </ProjectReference> 
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
