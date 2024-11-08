@@ -1,12 +1,12 @@
 ﻿using System;
-using NUnit.Framework; 
+using NUnit.Framework;
 
 namespace GithubActionsLab
 {
     [TestFixture]
     public class Math
     {
-        [Test] 
+        [Test]
         public void Add_Valid()
         {
             Assert.AreEqual(3, Program.Add("1", "2"));
@@ -31,7 +31,7 @@ namespace GithubActionsLab
         }
 
         // Implement 3 tests per operation, following a similar pattern as above
-        //for subtracting
+        // for Subtract
         [Test]
         public void Subtract_Valid()
         {
@@ -56,7 +56,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, null));
         }
 
-        //for Multiplying
+        // for Multiply
         [Test]
         public void Multiply_Valid()
         {
@@ -81,7 +81,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Multiply(null, null));
         }
 
-        //for Dividing
+        // for Divide
         [Test]
         public void Divide_Valid()
         {
@@ -116,9 +116,9 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid()
         {
-            Assert.AreEqual(8, Program.Power("2", "3")); 
+            Assert.AreEqual(8, Program.Power("2", "3"));
             Assert.AreEqual(16, Program.Power("4", "2"));
-            Assert.AreEqual(1, Program.Power("5", "0")); 
+            Assert.AreEqual(1, Program.Power("5", "0"));
         }
 
         [Test]
@@ -135,9 +135,6 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Power("2", null));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, "3"));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, null));
-
-
-
-
         }
+    }
 }
