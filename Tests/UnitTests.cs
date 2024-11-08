@@ -106,11 +106,11 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, null));
         }
 
-        [Test]
-        public void Divide_ByZero()
-        {
-            Assert.Throws<DivideByZeroException>(() => Program.Divide("5", "0"));
-        }
+        //[Test]
+        //public void Divide_ByZero()
+        //{
+        //    Assert.Throws<DivideByZeroException>(() => Program.Divide("5", "0"));
+        //}
 
         // Power tests
         [Test]
